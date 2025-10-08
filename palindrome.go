@@ -2,19 +2,18 @@ package main
 
 import "fmt"
 
-func palindrome(str string) {
-	length := len(str)
+func palindrome(s string) bool {
 
-	for i := 0; i < length/2; i++ {
-		if str[i] != str[length-i-1] {
-			fmt.Println("It is not a palindrome")
-			return
-		}
+	var rev string
+
+	for i := len(s) - 1; i >= 0; i-- {
+		rev += string(s[i])
 	}
-	fmt.Println("it is a palindrome")
+
+	return rev == s
 }
 
 func main() {
-	str := "hello"
-	palindrome(str)
+	s := "malayalam"
+	fmt.Println(palindrome(s))
 }
