@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 // write a function that will accept a positive number n as input. It will
 //       print numbers m from 1 to n. If m is divisible by 3, it will
@@ -8,20 +11,25 @@ import "fmt"
 //       divisible by 15, it will print fizzbizz. Otherwise, it will just
 //       print the number.
 
-func fizzbizz(n int) {
+func fizzbizz(n int) []string {
+
+	var final []string
+
 	for m := 1; m <= n; m++ {
+
 		if m%15 == 0 {
-			fmt.Println("fizzbizz")
+			final = append(final, "fizzbizz")
 		} else if m%5 == 0 {
-			fmt.Println("bizz")
+			final = append(final, "bizz")
 		} else if m%3 == 0 {
-			fmt.Println("fizz")
+			final = append(final, "fizz")
 		} else {
-			fmt.Println(m)
+			final = append(final, strconv.Itoa(m))
 		}
 	}
+	return final
 }
 
 func main() {
-	fizzbizz(20)
+	fmt.Println(fizzbizz(20))
 }
