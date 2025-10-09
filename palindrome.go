@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func palindrome(s string) bool {
 
 	var rev string
@@ -11,9 +9,4 @@ func palindrome(s string) bool {
 	}
 
 	return rev == s
-}
-
-func main() {
-	s := "malayalam"
-	fmt.Println(palindrome(s))
 }

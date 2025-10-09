@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -16,9 +15,4 @@ func abbreviate(s string) string {
 		}
 	}
 	return abbr
-}
-
-func main() {
-	str := "Central Processing Unit"
-	fmt.Println(abbreviate(str))
 }

@@ -1,0 +1,25 @@
+mode: set
+answers/abbreviate.go:7.34,11.29 3 0
+answers/abbreviate.go:11.29,13.43 2 0
+answers/abbreviate.go:13.43,15.4 1 0
+answers/abbreviate.go:17.2,17.13 1 0
+answers/fizzbizz.go:13.31,17.26 2 0
+answers/fizzbizz.go:17.26,19.16 1 0
+answers/fizzbizz.go:19.16,21.4 1 0
+answers/fizzbizz.go:21.9,21.22 1 0
+answers/fizzbizz.go:21.22,23.4 1 0
+answers/fizzbizz.go:23.9,23.22 1 0
+answers/fizzbizz.go:23.22,25.4 1 0
+answers/fizzbizz.go:25.9,27.4 1 0
+answers/fizzbizz.go:29.2,29.14 1 0
+answers/frequency.go:3.41,7.30 2 0
+answers/frequency.go:7.30,10.3 2 0
+answers/frequency.go:11.2,11.13 1 0
+answers/main.go:5.13,12.2 5 0
+answers/palindrome.go:3.32,7.35 2 1
+answers/palindrome.go:7.35,9.3 1 1
+answers/palindrome.go:11.2,11.17 1 1
+answers/pangram.go:7.29,9.30 2 0
+answers/pangram.go:9.30,10.38 1 0
+answers/pangram.go:10.38,12.4 1 0
+answers/pangram.go:14.2,14.13 1 0
